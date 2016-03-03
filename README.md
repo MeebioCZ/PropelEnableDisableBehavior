@@ -33,13 +33,18 @@ Added methods :
 
 Object methods:
 
+```
 $object->enable();
 $object->disable();
+```
 
 Query methods:
 
+```
 ObjectQuery::create()->findEnabled();
 ObjectQuery::create()->findDisabled();
+```
+
 
 License
 -------
