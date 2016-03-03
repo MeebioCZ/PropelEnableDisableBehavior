@@ -1,7 +1,7 @@
 PropelEnableDisableBehavior for [Propel2] (https://github.com/propelorm/Propel2)
 ==================================
 
-The Behavior adds enabled column in table adds methods to enable/disable each rows.
+The Behavior adds "enabled" column in table, and adds methods to enable/disable each rows.
 
 Installation
 ------------
