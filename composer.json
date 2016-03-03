@@ -1,0 +1,29 @@
+{
+    "name": "berduj/PropelEnableDisableBehavior",
+    "type": "propel-behavior",
+    "license": "MIT",
+    "description": "Enable / Disabe rows for Propel2",
+    "keywords": ["propel", "behavior", "enable", "disable"],
+    "authors": [
+        {
+            "name": "Bertrand Dujardin",
+            "homepage": "https://github.com/berduj"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Altern\\Propel\\Behavior\\EnableDisable\\" : "src"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "propel/propel": "~2.0@dev"
+    },
+    "extra": {
+        "name": "enable-disable",
+        "class": "Altern\\Propel\\Behavior\\EnableDisable\\EnableDisableBehavior",
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
