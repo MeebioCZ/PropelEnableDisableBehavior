@@ -1,5 +1,5 @@
 {
-    "name": "berduj/PropelEnableDisableBehavior",
+    "name": "berduj/propel-enable-disable-behavior",
     "type": "propel-behavior",
     "license": "MIT",
     "description": "Enable / Disabe rows for Propel2",
