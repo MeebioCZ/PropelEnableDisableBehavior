@@ -23,7 +23,7 @@
         "name": "enable-disable",
         "class": "Altern\\Propel\\Behavior\\EnableDisable\\EnableDisableBehavior",
         "branch-alias": {
-            "dev-master": "1.0"
+            "dev-master": "1.0.0-dev"
         }
     }
 }
