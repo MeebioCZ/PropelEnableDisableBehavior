@@ -16,8 +16,8 @@
         }
     },
     "require": {
-        "php": ">=5.4",
-        "propel/propel": "~2.0@dev"
+        "php": ">=8.0",
+        "propel/propel": "~2.0.0-beta2@dev"
     },
     "extra": {
         "name": "enable-disable",

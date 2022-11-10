@@ -23,7 +23,8 @@ class EnableDisableBehavior extends Behavior {
             //'name' => 'enable',
     );
 
-    public function modifyTable() {
+    public function modifyTable(): void
+    {
         $table = $this->getTable();
         $columnName = "enabled";
 
